@@ -295,7 +295,7 @@ def undo():
 # Credits
 @app.route("/cred/", methods=['POST'])
 def cred():
-    speak( "This game was developed by Kajal Lochab for her P.S.C. Innovative Assignment for the year 2023 under the guidance of Dr. Vishal Parikh")
+    speak( "This game was developed by Kajal Lochab")
     return main()
 
 # Instructions
